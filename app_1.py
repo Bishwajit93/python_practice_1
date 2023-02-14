@@ -32,3 +32,18 @@ print(bin(7))
 ##math import functions
 print(sqrt(100))
 print(math.pi)
+
+
+#input fromt the user:
+name = input('Input Your Name: ')
+age = int(input('your age? '))
+print ('Your name is', name ,'and age is', age)
+
+
+# taking inout and replacing the word as the user wants
+
+sentence = input('Pleas write a sentence: ')
+print('Your given sentence is: ' + '"'+sentence+'"')
+word1 = input('Please write the word you want to change: ')
+word2 = input('Please give the new word: ')
+print(sentence.replace(word1, word2))
