@@ -10,5 +10,16 @@ print(name.replace('j', 'g'))
 
 
 
+number = 79
+print(number)
 
-print(78)
+print(number + 78)
+print(number + 78 + 0.945)
+result=(number + 78 + 0.945 - 59 * 45 / 9)
+print (result)
+print(abs(result))
+print(max(5,7,3,6,2,1))
+print(min(5,7,3,6,2,1))
+print(round(3.7))
+print(round(3.2))
+print(bin(7))
