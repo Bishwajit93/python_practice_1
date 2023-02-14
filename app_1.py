@@ -1,3 +1,8 @@
+from math import *
+import math
+
+#String and print functions
+
 name = 'Bishwajit'
 age = 18
 print('Hello from Python world.')
@@ -9,7 +14,7 @@ print(name.index('j'))
 print(name.replace('j', 'g'))
 
 
-
+# number and operations
 number = 79
 print(number)
 
@@ -23,3 +28,7 @@ print(min(5,7,3,6,2,1))
 print(round(3.7))
 print(round(3.2))
 print(bin(7))
+
+##math import functions
+print(sqrt(100))
+print(math.pi)
