@@ -14,7 +14,7 @@
 # print(p1)
 
 
-from class2 import Student
+from class_object2 import Student
 class Person(Student):
     pass
 
